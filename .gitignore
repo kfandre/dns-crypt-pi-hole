@@ -1,0 +1,4 @@
+dnscrypt-config/*
+!dnscrypt-config/dnscrypt-proxy.toml
+
+pihole-etc/*
