@@ -5,7 +5,7 @@ The docker compose file in this repo sets suitable default options -- such as th
 
 dnsrypt-proxy is a DNS proxy implementation from [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy). It can translate normal unencrypted DNS queries into DNS over TLS queries, DNSCrypt queries, or DNS over HTTP.
 
-Using an encrypted DNS connection prevents your ISP from eavesdropping on the sites you visit. Also, since stubby validates the remote TLS endpoint certificate against a CA database, it helps guard against DNS spoofing. 
+Using an encrypted DNS connection prevents your ISP from eavesdropping on the sites you visit. Also, since dnscrypt validates the remote TLS endpoint certificate against a CA database, it helps guard against DNS spoofing. 
 
 ## Usage
 
